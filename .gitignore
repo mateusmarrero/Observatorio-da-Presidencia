@@ -1,0 +1,14 @@
+.env
+storage/logs/*.log
+storage/logs/ratelimit/*
+storage/imports/*
+!storage/imports/.gitkeep
+storage/documents/*
+!storage/documents/.gitkeep
+storage/backups/*
+!storage/backups/.gitkeep
+storage/*.sqlite
+storage/*.sqlite-journal
+vendor/
+.DS_Store
+Thumbs.db
